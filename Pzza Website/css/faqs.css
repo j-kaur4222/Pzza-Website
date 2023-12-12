@@ -1,0 +1,44 @@
+.faq-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin: auto;
+  padding: 20px;
+  max-width: 1000px;
+  color: black;
+}
+.faq-item {
+  margin-bottom: 20px;
+
+}
+
+.question {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.answer {
+  display: none;
+}
+
+button {
+  transition: background-color 0.3s ease;
+  background-color: red ; 
+  color: white;
+  padding: 15px 30px; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-container
+{
+  padding: 100px 200x;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      text-align: center;
+      margin-top: 20px;
+      margin-left: 620px;
+      margin-bottom: 20px;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>		
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+  		<!-- TITLE -->
+		<title>Reserve</title>
+
+        <!-- FONTS -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+
+        <!-- ICONS -->
+        <link href="https://use.fontawesome.com/releases/v5.11.0/css/all.css" rel="stylesheet" crossorigin="anonymous">		
+
+        <!-- CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/head.css" rel="stylesheet">
+		<link href="css/newsletter.css" rel="stylesheet">
+		<link href="css/foot.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
+    </head>
+  	<body>
+        <!-- Shopping cart icon -->
+		<a class="shopping" href="cart.html">
+			<img src="images/shopping.jpg">
+			<span class="quantity"> </span>
+        </a>
+
+		<!-- Header -->
+		<section id="header1">	
+		</section>	
+
+        <!-- Booking Intro-->
+        <div id="booking-page" class="page-intro">
+            <div class="container">	
+                <div class="row">	
+                    <div class="col-lg-10 offset-lg-1">
+						<h2 class="h2-xl">Reserve With Us</h2>
+					</div>		
+                </div>
+            </div>
+        </div>
+        
+        <!-- Booking -->
+        <div id="booking-2" class="wide-70 booking-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
+                        <div class="form-holder">
+                            <p class="p-xl text-center" style="color:black">
+                                Fill in the form below or give us a call <a href="tel:123456789">789-654-3210</a>
+                            </p>
+                            <form name="bookinkform" class="row booking-form">
+                                <div class="col-lg-6">
+                                    <input id="datetimepicker" type="text" name="date" class="form-control date" placeholder="Select Date*" required>
+                                </div>
+                                        
+                                <div class="col-lg-6">
+                                    <input type="text" name="name" class="form-control name" placeholder="Your Name*" required> 
+                                </div>
+                                        
+                                <div class="col-lg-6">
+                                    <input type="email" name="email" class="form-control email" placeholder="Email Address*" required> 
+                                </div>
+                                <div class="col-lg-6">
+                                    <input type="tel" name="phone" class="form-control phone" placeholder="Phone Number*" required> 
+                                </div>        
+                                <div class="col-md-12">
+                                    <textarea name="message" class="form-control message" rows="4" placeholder="Your Message ..."></textarea>
+                                </div> 
+                                <div class="col-md-12 mt-10">  
+                                    <button type="submit" class="btn-md btn-red btn tra-red-hover submit">Request Booking</button> 
+                                </div>
+                                <div class="col-md-12 booking-form-msg text-center">
+                                    <div class="sending-msg"><span class="loading"></span></div>
+                                </div>                                                  
+                            </form>
+                        </div>	
+                    </div>
+                </div>	
+            </div>
+        </div>
+
+        <!-- Newsletter -->
+		<section id="newsletter">
+		</section>
+
+		<!-- Footer -->
+		<section id="footer">									
+		</section>
+
+        <!-- JQUERY -->
+        <script src="js/jquery-3.6.4.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>					
+		<script src="js/custom.js"></script>
+        <script src="js/booking-form.js"></script>
+		<script src="js/cart-qty.js"></script>
+    </body>
+</html>

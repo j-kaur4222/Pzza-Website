@@ -1,0 +1,38 @@
+p {
+  color: black;
+}
+
+.product-description {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.product-name {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.product-description-text {
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.product-price {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+label, input {
+  color: black;
+}
+
+a {
+  opacity: 1;
+}

@@ -1,0 +1,33 @@
+/*image slidder*/
+
+.slider-container {
+    width: 100%;
+    height: 55vh;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+   
+  .main-image img {
+    width: 100%;
+    height: 700px;
+  }
+  /* for text on */
+  .text-overlay {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-family: cursive;
+    font-weight: bold;
+    text-align: center;
+  }
